@@ -48,7 +48,7 @@ void parse_uniqqs(uint32_t bucket_alloc, FILE *h)
   uint32_t bkt_count = 0, ci;
   struct bucket *bkt, *bkt_p;
   bool has_qs, bkt_find, next_parse;
-  char *url, *dt, *dx, *fix_url, buffer[4096];
+  char *dt, *dx, *fix_url, buffer[4096];
 
   bkt = (struct bucket *)malloc(sizeof(struct bucket) * bucket_alloc);
 
