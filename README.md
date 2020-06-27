@@ -7,7 +7,7 @@ Uniq for URL with query string filter.
 git clone https://github.com/ammarfaizi2/uniqqs
 cd uniqqs
 gcc -O3 uniqqs.c -o uniqqs
-uniqqs < test.txt
+./uniqqs < test.txt
 ```
 
 # Example Case
