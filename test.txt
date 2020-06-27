@@ -1,2 +1,6 @@
-https://www.facebook.com/qweqwe?p1=123&p2=123123
-https://www.facebook.com/qweqwe?p4=123&p3=123123
+https://www.facebook.com/endpoint_a?p1=123&p2=123123
+https://www.facebook.com/endpoint_a?p4=123&p3=123123
+https://www.facebook.com/endpoint_b?p4=123&p3=123123
+https://www.facebook.com/endpoint_b?p5=123&p6=123123
+https://www.facebook.com/endpoint_a?p5=123&p6=123123
+https://www.facebook.com/endpoint_b?p1=123&p2=123123
