@@ -60,7 +60,7 @@ void parse_uniqqs(uint32_t bucket_alloc, FILE *h)
       dt++;
     }
 
-    // and URL is assumed to have query string
+    // A URL is assumed to have query string
     // if and only if there is '?' character.
     has_qs = (*dt == '?');
     *dt = '\0';
