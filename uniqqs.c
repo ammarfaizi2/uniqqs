@@ -1,4 +1,10 @@
 
+/**
+ * @author Ammar Faizi <ammarfaizi2@gmail.com> https://www.facebook.com/ammarfaizi2
+ * @license MIT
+ *
+ * uniqqs: A uniq for URL integrated with query string result.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
