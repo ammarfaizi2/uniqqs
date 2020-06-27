@@ -1,6 +1,6 @@
 # uniqqs
 
-Uniq for URL with query string filter.
+Uniq for URL list with query string filter.
 
 # Installation
 ```
