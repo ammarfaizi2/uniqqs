@@ -77,6 +77,13 @@ void parse_uniqqs(uint32_t bucket_alloc, FILE *h)
 
       // Add more query string record.
       if (has_qs) {
+
+        if (bkt_p->qs_count == 0) {
+          bkt_p->qs_count = 0;
+          bkt_p->allocated_qs = sizeof(char *) * FIRST_ALLOCATED_QS;
+          bkt_p->qs = (char **)malloc(bkt_p->allocated_qs);
+        }
+
         dx = ++dt;
 
         qparse_002:
